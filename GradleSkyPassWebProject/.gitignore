@@ -1,0 +1,73 @@
+target/
+build/
+
+#sonarqube -- 삭제 금지
+.sonarqube
+.scannerwork
+.sonarlint/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+#visual studio
+/.vs
+obj
+bin
+*.vspscc
+*.vssscc
+*.scc
+*.licx
+*.lics
+
+
+# Java template
+*.class
+
+
+# IntelliJ project files
+.idea
+.idea/*.xml
+*.iml
+out
+gen
+build
+rebel.xml
+
+
+# Gradle
+.gradle
+/build/
+.gradletasknamecache
+
+
+#maven
+target
+
+
+#AWS CodeDeploy
+deploy
+
+
+
+#Android Studio
+/appsuit/dump.txt
+/local.properties
+
+
+
+#sam build
+.aws-sam
+
+
+### VS Code ###
+.vscode/
+bin/main/application.yml
